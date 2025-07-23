@@ -385,6 +385,17 @@ header {
     line-height: 1.6;
 }
 
+.contact-item a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #d4a574;
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background: #333;
