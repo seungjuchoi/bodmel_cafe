@@ -336,6 +336,21 @@ header {
     border-radius: 15px;
 }
 
+.social-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icon svg {
+    color: #d4a574;
+    transition: transform 0.3s ease;
+}
+
+.social-item:hover .social-icon svg {
+    transform: scale(1.1);
+}
+
 .social-item h3 {
     font-size: 1.5rem;
     color: #333;
